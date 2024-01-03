@@ -1,5 +1,4 @@
 import React from "react";
-import Navbar from "./(main_section)/Navbar";
 import TopSec from "./(main_section)/TopSec";
 import Sec2 from "./(main_section)/Sec2";
 import Sec3 from "./(main_section)/Sec3";
@@ -14,8 +13,7 @@ import BookATable from "./(main_section)/BookATable";
 
 function Root() {
   return (
-    <div>
-      <Navbar />
+    <div className=" overflow-x-hidden">
       <TopSec />
       <Sec2 />
       <Sec3 />

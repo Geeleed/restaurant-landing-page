@@ -29,13 +29,13 @@ function OurBlog() {
     <div className="flex flex-col items-center bg-white text-black pb-20">
       <div className="p-10 text-center flex flex-col items-center">
         <h1 className=" text-[2rem] font-bold">OUR BLOG</h1>
-        <p className=" w-1/2 text-gray-500 text-[0.9rem]">
+        <p className=" w-1/2 text-gray-500 text-[0.9rem] max-[769px]:w-2/3 max-[426px]:text-[0.8rem] max-[426px]:w-full">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Suscipit
           magni doloribus itaque eaque distinctio veniam veritatis nobis!
           Recusandae, exercitationem corrupti?
         </p>
       </div>
-      <div className="flex px-[10%] gap-5">
+      <div className="flex px-[10%] gap-5 max-[426px]:flex-col">
         {data.map((elem, index) => (
           <Card key={index} props={elem} />
         ))}

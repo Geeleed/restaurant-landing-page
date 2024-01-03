@@ -39,7 +39,7 @@ interface Card1_props {
 }
 function Card1(props: Card1_props) {
   return (
-    <div className="flex flex-col items-center text-center gap-3 w-1/5">
+    <div className="flex flex-col items-center text-center gap-3 w-1/5 max-[426px]:w-2/3">
       <Image
         src={props.image_address}
         height={100}
@@ -48,13 +48,15 @@ function Card1(props: Card1_props) {
         className=" rounded-full w-[5rem] h-[5rem]"
       />
       <p>{props.title}</p>
-      <p className="text-[0.8rem] text-gray-500">{props.detail}</p>
+      <p className="text-[0.8rem] text-gray-500 max-[769px]:text-[0.6rem]">
+        {props.detail}
+      </p>
     </div>
   );
 }
 export default function Sec3() {
   return (
-    <div className="flex bg-white text-black p-10 gap-10 px-[10%] justify-center items-center h-[50vh]">
+    <div className="flex bg-white text-black p-10 gap-10 px-[10%] justify-center items-center h-[50vh] max-[426px]:flex-col max-[426px]:h-auto">
       {data.map((elem, index) => (
         <Card1
           key={index}

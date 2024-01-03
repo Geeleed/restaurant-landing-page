@@ -16,15 +16,15 @@ function FoodGallery() {
     <div className=" bg-white text-black">
       <div className=" w-full text-center p-10 flex flex-col items-center">
         <h1 className="text-[2rem] font-bold">FOOD GALLERY</h1>
-        <p className=" w-1/2 text-gray-500 text-[0.9rem]">
+        <p className=" w-1/2 text-gray-500 text-[0.9rem] max-[769px]:w-2/3 max-[426px]:text-[0.7rem] max-[426px]:w-full">
           Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique
           consequuntur eveniet dolorum omnis aperiam eum eligendi rem ad atque
           ipsum?
         </p>
       </div>
-      <div className="grid grid-cols-3 gap-1">
+      <div className="grid grid-cols-3 gap-1 max-[426px]:grid-cols-1">
         {data.map((image_address) => (
-          <div className=" w-full h-full overflow-hidden">
+          <div className=" w-full h-80 overflow-hidden flex justify-center items-center">
             <Image
               src={image_address}
               height={1000}
