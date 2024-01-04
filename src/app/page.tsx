@@ -10,10 +10,12 @@ import Sec8 from "./(main_section)/Sec8";
 import OurBlog from "./(main_section)/OurBlog";
 import Sec9 from "./(main_section)/Sec9";
 import BookATable from "./(main_section)/BookATable";
+import Navbar from "./(main_section)/Navbar";
 
 function Root() {
   return (
-    <div className=" overflow-x-hidden">
+    <div className="">
+      <Navbar />
       <TopSec />
       <Sec2 />
       <Sec3 />

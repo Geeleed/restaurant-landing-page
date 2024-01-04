@@ -11,21 +11,21 @@ const data = [
   },
   {
     image_address:
-      "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1627309302198-09a50ae1b209?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "LUNCH",
     detail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat illo corrupti, qui ad sit laudantium.",
   },
   {
     image_address:
-      "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1611765083444-a3ce30f1c885?q=80&w=1364&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "DINNER",
     detail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat illo corrupti, qui ad sit laudantium.",
   },
   {
     image_address:
-      "https://images.unsplash.com/photo-1525351484163-7529414344d8?q=80&w=1780&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
+      "https://images.unsplash.com/photo-1497534446932-c925b458314e?q=80&w=1372&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     title: "DRINKS",
     detail:
       "Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat illo corrupti, qui ad sit laudantium.",
@@ -56,7 +56,10 @@ function Card1(props: Card1_props) {
 }
 export default function Sec3() {
   return (
-    <div className="flex bg-white text-black p-10 gap-10 px-[10%] justify-center items-center h-[50vh] max-[426px]:flex-col max-[426px]:h-auto">
+    <div
+      id="services"
+      className="flex bg-white text-black p-10 gap-10 px-[10%] justify-center items-center h-[50vh] max-[426px]:flex-col max-[426px]:h-auto"
+    >
       {data.map((elem, index) => (
         <Card1
           key={index}

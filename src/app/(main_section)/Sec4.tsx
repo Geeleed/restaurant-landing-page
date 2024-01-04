@@ -3,7 +3,7 @@ import React from "react";
 
 function Sec4() {
   return (
-    <div className=" bg-[url(https://images.unsplash.com/photo-1504674900247-0877df9cc836?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8Zm9vZHxlbnwwfHwwfHx8MA%3D%3D)] bg-center bg-no-repeat bg-cover h-[80vh]">
+    <div className=" bg-[url(https://images.unsplash.com/photo-1600891964599-f61ba0e24092?q=80&w=1470&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D)] bg-center bg-no-repeat bg-cover h-[80vh]">
       <div className="flex flex-col gap-5 w-[40%] bg-orange-100 text-black h-full items-center justify-center text-center p-20 max-[769px]:p-7 max-[426px]:w-full">
         <Image
           src={

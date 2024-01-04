@@ -3,14 +3,17 @@ import Image from "next/image";
 
 export default function Sec2() {
   return (
-    <div className="flex bg-white text-black px-[10%] py-5 items-center border-b border-gray-100 gap-5 max-[426px]:flex-col">
+    <div
+      id="about"
+      className="flex bg-white text-black px-[10%] py-5 items-center border-b border-gray-100 gap-5 max-[426px]:flex-col pt-40"
+    >
       <div className="w-1/2 max-[426px]:w-full">
         <Image
           src={
             "https://images.unsplash.com/photo-1484723091739-30a097e8f929?q=80&w=1547&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
           }
           height={500}
-          width={100}
+          width={500}
           alt=""
           className=" h-[30rem] w-auto"
         />
