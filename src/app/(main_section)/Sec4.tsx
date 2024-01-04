@@ -12,7 +12,7 @@ function Sec4() {
           height={100}
           width={100}
           alt=""
-          className="rounded-md"
+          className="rounded-md w-auto h-auto"
         />
         <p>Specialty of the Restaurant</p>
         <p className="font-bold text-[3rem] leading-none max-[1025px]:text-[2rem]">

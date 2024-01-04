@@ -23,8 +23,11 @@ function FoodGallery() {
         </p>
       </div>
       <div className="grid grid-cols-3 gap-1 max-[426px]:grid-cols-1">
-        {data.map((image_address) => (
-          <div className=" w-full h-80 overflow-hidden flex justify-center items-center">
+        {data.map((image_address, index) => (
+          <div
+            key={index}
+            className=" w-full h-80 overflow-hidden flex justify-center items-center"
+          >
             <Image
               src={image_address}
               height={500}

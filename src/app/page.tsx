@@ -27,6 +27,11 @@ function Root() {
       <OurBlog />
       <Sec9 />
       <BookATable />
+      <footer className=" bg-black text-white text-center p-5">
+        {
+          "This reference and inspiration from: http://www.themezaa.com/html/leadgen/demo/restaurant/index.html"
+        }
+      </footer>
     </div>
   );
 }
