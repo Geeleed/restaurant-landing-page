@@ -14,7 +14,7 @@ import Navbar from "./(main_section)/Navbar";
 
 function Root() {
   return (
-    <div className="">
+    <div>
       <Navbar />
       <TopSec />
       <Sec2 />
@@ -27,7 +27,7 @@ function Root() {
       <OurBlog />
       <Sec9 />
       <BookATable />
-      <footer className=" bg-black text-white text-center p-5">
+      <footer className=" bg-black text-white text-center p-5 break-words">
         {
           "This reference and inspiration from: http://www.themezaa.com/html/leadgen/demo/restaurant/index.html"
         }
